@@ -6,7 +6,7 @@ class Student < User
     knowledge = []
   end
 
-  def learn 
+  def learn
     teacher.teach << knowledge
   end
 
